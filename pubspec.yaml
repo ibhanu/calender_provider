@@ -1,0 +1,32 @@
+name: nirmitee
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_datetime_picker: ^1.5.1
+  googleapis: ^4.0.0
+  googleapis_auth: ^1.1.0
+  url_launcher: ^6.0.9
+  http: ^0.13.3
+  syncfusion_flutter_calendar: ^19.2.57
+  provider: ^6.0.0
+  get_it: ^7.2.0
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - .env
